@@ -2,6 +2,7 @@ body {
     background-image: url('https://cdn.shopify.com/s/files/1/0071/6197/0758/files/shutterstock_1416346496_1024x1024.jpg?v=1594210464');
     background-repeat: no-repeat;
     background-size:cover;
+    text-align: center;
 }
 
 ul {
@@ -9,6 +10,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(255, 154, 154);
+    border-radius: 10px;
 }
 
 li {
@@ -36,3 +38,49 @@ ul2 {
     text-align: center;
     position: 20% left 50% right 50% bottom 50% top;
 }
+
+h1 {
+    padding-top: 300px;
+    font-size: 55px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    ;
+  }
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  h3 {
+      padding: 10px;
+      font-family:monospace;
+      text-align: center;
+  }
+
+  learnmore {
+      border: white;
+      border-collapse: collapse;
+      border-style: solid;
+      padding: 5px;
+      border-radius: 5px;
+      text-align: center;
+  }
+
+  learnmore:hover {
+      background-color: rgb(255, 196, 196);
+  }
+
+  .heading{
+      padding: 0;
+  }
+
